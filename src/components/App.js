@@ -6,7 +6,7 @@ const App = () => {
   let male = ["Shirts","Facial-grooming kits","Hair styling","Jeans","Shoes"]
   let female = ["Tops","Skirts","Makeup items","Jewellery","Sandals"]
   const [data,setData] = useState([])
-  const [category,setCategory] = useState("")
+  const [category,setCategory] = useState("male")
   useEffect(() => {
     if(category === "male"){
       setData(male)

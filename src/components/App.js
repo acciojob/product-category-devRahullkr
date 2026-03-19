@@ -26,7 +26,11 @@ const App = () => {
         </select>
         <ul>
           {
-            data.forEach((item,index) => <li key={index}>{item}</li>)
+            data.map((item,index) => {
+              return (
+                <li key={index}>{item}</li>
+              )
+            })
           }
         </ul>
     </div>

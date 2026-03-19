@@ -20,7 +20,6 @@ const App = () => {
     <div>
         {/* Do not remove the main div */}
         <select onChange={(e) => setCategory(e.target.value)}>
-          <option value="">Select Category</option>
           <option value="male">Male</option>
           <option value="female">Female</option>
         </select>
